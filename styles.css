@@ -42,12 +42,13 @@ body {
     background-color: orange;
 }
 
-.trailer-container {
-    display: none;
+.active.trailer-container {
+    visibility: hidden;
+    opacity: 0;
 }
 
 
-.trailer-container.active {
+.trailer-container{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -58,6 +59,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+    transition: opacity .4s ease;
 }
 
 .trailer-container video {
