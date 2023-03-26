@@ -54,3 +54,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.trailer-container video {
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+
+@media (max-width:991px) {
+    .trailer-container video {
+        max-width: 90%;
+    }
+}
