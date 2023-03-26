@@ -28,6 +28,14 @@ body {
     margin: 15px 0;
 }
 
+.main-container .btn {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .trailer-container {
     display: none;
 }
